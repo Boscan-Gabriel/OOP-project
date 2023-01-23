@@ -912,7 +912,7 @@ public:
 };
 
 // Clasa FilmPremiat derivata din clasa Film si clasa suport Data
-/*
+
 class Data
 {
 private:
@@ -1179,7 +1179,7 @@ public:
 		}
 		else return false;
 	}
-};*/
+};
 
 int main()
 {
@@ -1355,7 +1355,7 @@ int main()
 	cout << s;
 
 	//codul in care clasa derivata si toate metodele acesteia sunt testate
-	/*
+	
 	FilmPremiat filmP1;
 	FilmPremiat filmP(2, "Titanic", "Drama", 200'000'000, Durata(3, 15), "20th Century Fox, Paramount Pictures,Lightstorm Entertainment", Distributie(11, new string[11]{ "Leonardo DiCaprio","Kate Winslet","Billy Zane","Kathy Bates","Frances Fisher","Victor Garber","Bernard Hill","Jonathan Hyde","Danny Nucci","David Warner","Bill Paxton" }), "James Cameron", 1997, "Oscar", Data(15, 06, 1998));
 	cin >> filmP1;
@@ -1376,7 +1376,7 @@ int main()
 	filmP2.setProducator("Warner Bros. Pictures");
 	filmP2.setRegizor("Denis Villeneuve");
 	filmP2.setDurata(Durata(2, 36));
-	filmP2.setDistributie(Distributie(8, new string[8]{ "Timothée Chalamet","Rebecca Ferguson","Oscar Isaac","Josh Brolin","Stellan Skarsgård","Dave Bautista","Stephen McKinley Henderson","Zendaya" }));
+	filmP2.setDistributie(Distributie(8, new string[8]{ "TimothÃ©e Chalamet","Rebecca Ferguson","Oscar Isaac","Josh Brolin","Stellan SkarsgÃ¥rd","Dave Bautista","Stephen McKinley Henderson","Zendaya" }));
 	filmP2.setPremiu("Oscar");
 	filmP2.setDataPremiere(Data(16, 05, 2021));
 	cout << endl << filmP2.getId() << endl << filmP2.getDenumire() << endl << filmP2.getGen() << endl << filmP2.getAnAparitie() << endl << filmP2.getBuget() << endl << filmP2.getProducator() << endl << filmP2.getRegizor() << endl << filmP2.getDurata() << filmP2.getDistributie() << endl << filmP2.getPremiu() << endl << filmP2.getDataPremiere();
@@ -1455,7 +1455,7 @@ int main()
 		in1.close();
 	}
 	else cout << endl << "Fisierul nu a putut fi deschis!" << endl;
-	cout << filmP3;*/
+	cout << filmP3;
 
 //Testare  containere din biblioteca STL
 	vector<Film> vector_filme;
